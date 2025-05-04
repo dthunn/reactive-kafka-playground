@@ -1,4 +1,4 @@
-package com.dthunn.reactivekafkaplayground;
+package com.dthunn.reactivekafkaplayground.sec01;
 
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;
@@ -11,7 +11,6 @@ import java.util.List;
 import java.util.Map;
 
 public class FirstKafkaConsumer {
-
 
     private static final Logger log = LoggerFactory.getLogger(FirstKafkaConsumer.class);
 
